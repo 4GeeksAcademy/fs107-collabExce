@@ -1,9 +1,24 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../../website/assets/img/bg.jpg" class="d-block w-100%" alt="...">
+  <div class="carousel-inner position-relative">
+    
+    <div class="carousel-item active">
+      <img src="../../website/assets/img/bg.jpg" class="d-block w-100" alt="...">
+
+      <!-- Contenedor de los dos rectángulos -->
+      <div class="position-absolute top-50 start-50 translate-middle d-flex flex-column align-items-center gap-4 w-100 px-3">
+        
+        <!-- Primer rectángulo alargado -->
+        <div class="bg-white text-dark p-4 rounded shadow w-100 text-center">
+          <h1 class="h1 fw-bold" style="font-size: 100px;">One Page Wonder</h1>
+        </div>
+        <div class="bg-white text-dark p-4 rounded shadow w-100 text-center">
+          <h2 class="h1 fw-bold" style="font-size: 60px;">Will Knock Your Socks Off</h2>
+        </div>
+
       </div>
     </div>
-</div> 
+
+  </div>
+</div>
